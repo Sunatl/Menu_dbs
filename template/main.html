@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+</head>
+<body>
+
+
+    <table>
+        <caption><h1>Menu</h1></caption>
+    </table>
+
+    {% for student in menu  %}
+<div class="a2">
+    <div>
+    <img  class="aa1" src="{{student.surat}}" alt=""> 
+</div>
+<div class="a3">
+        <h1>Name: {{student.name}}</h4>    
+        <h1>Price: {{student.price}} </h4>  
+    <h1>Deccription: {{student.diccription}}</h4> 
+    <h1>Quantify: {{student.quantify}}</h4>    
+    <h1>Quantify: {{student.category}}</h4>    
+    
+    </div>
+</div>
+    
+    
+    {% endfor %}
+    
+</body>
+</html>

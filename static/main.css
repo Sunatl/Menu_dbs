@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table,th,tr,td,caption{
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    padding: 8px 80px;
+
+
+}
+.aa1{
+    width: 200px;
+    margin-left: 150px;
+}
+.a2{
+    display: flex;
+    margin-top: 30px;
+}
+.a3{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+body{
+    background-color: rgba(217, 35, 35, 0.829);
+    color: white;
+}
